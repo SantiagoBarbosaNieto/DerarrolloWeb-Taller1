@@ -1,0 +1,51 @@
+
+.body
+{
+    background-image: url("../beer-background-try1.png");
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0,35%);
+    transition: 0.3s;
+    max-width:10%;
+    max-height:5%;
+    border: 2px solid black;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    background-color: rgba(0, 0, 0,75%);
+    color: white;
+  }
+
+  #inicio
+{
+    background-color:black;
+    border: 3px solid rgb(216, 169, 17);
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo-inicial
+{
+    color: white;
+    font-size: 130px;
+
+}
+
+#slogan
+{
+    color: rgb(163, 162, 162);
+    font-size: 40px;
+}
