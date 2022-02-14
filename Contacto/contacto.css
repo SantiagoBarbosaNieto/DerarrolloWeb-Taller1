@@ -1,0 +1,45 @@
+#inicio
+{
+    background-color:black;
+    border: 3px solid rgb(216, 169, 17);
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo-inicial
+{
+    color: white;
+    font-size: 130px;
+
+}
+
+#slogan
+{
+    color: rgb(163, 162, 162);
+    font-size: 40px;
+}
+
+.contacto
+{
+    background-color: rgba(253, 237, 216, 90%);
+    text-align: center;
+    font-size:larger;
+    border: 3px solid black; 
+    width:80%;
+    margin:auto
+}
+
+.datos
+{
+    background-color: rgb(87, 73, 58);
+    color: white;
+}
+
+
+.body
+{
+    background-image: url("../beer-background-try1.png");
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+}

@@ -1,0 +1,116 @@
+.body
+{
+    background-image: url("beer-background-try1.png");
+    background-position: center;
+    background-repeat:repeat;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33%;
+    padding: 10px;
+}
+
+.image{
+    margin:auto;
+    width: 95%;
+    border: 5px solid rgb(160, 77, 0);
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: rgb(160, 77, 0);
+}
+
+
+#right
+{
+    margin-left: 1%;
+}
+
+
+#div-imagenes
+{
+    padding: 10px;
+    align-content: center;
+    margin-left: 2%;
+}
+
+#inicio
+{
+    background-color:black;
+    border: 3px solid rgb(216, 169, 17);
+    padding: 10px;
+}
+
+#titulo-inicial
+{
+    color: white;
+    font-size: 130px;
+
+}
+.div-link
+{
+    background-color: rgb(253, 245, 227);
+    padding: 10px;
+    min-height: 130px;
+    border: 3px solid rgb(0, 0, 0);
+    font-size: 100px;
+    margin:auto;
+}
+
+#slogan
+{
+    color: rgb(163, 162, 162);
+    font-size: 40px;
+}
+
+.centered
+{
+  text-align: center;
+}
+
+.centered-div
+{
+    margin:auto;
+}
+
+.placed-right
+{
+    float: right;
+}
+
+
+.link 
+{ 
+    color: #382d25; 
+    display: block;
+    text-align: center;
+    border-radius: 25px;
+    text-underline-offset: 4000px;
+} 
+
+.link:hover{
+    color:#504035;
+    background-color: rgb(216, 205, 178);
+    font-size:105%
+}
+.link::after{
+    color:#504035
+}
+
+.desc
+{
+    display:none;
+    font-size: 15px;
+    color:#382d25;
+    text-align: center;
+}
+
+.link:hover + .desc
+{
+    display: block;
+    color:#382d25;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Artisan: Contacto</title>
+    <script src="contacto.js"></script>
+</head>
+<body class="body">
+    <div>
+        <div id = "inicio" class="centered-div">
+            <h1 id="titulo-inicial" class="centered">Artisan</h1>
+            <h2 id="slogan" class="centered"> Cerveza que enamora</h2> 
+        </div>
+    </div>
+    <div class="contacto">
+        <h1>Contacto</h1>
+        <h2>Déjanos tu información y nos pondremos en contacto pronto!</h2>
+        <form action="">
+            <div class="datos">
+                <fieldset >
+                <legend>Datos Básicos:</legend>
+                <div>
+                    <h3>Nombre*</h3>
+                    <input type="text" id="txt-nombre" name="nombre" placeholder="ingrese su nombre" value="">
+                </div>
+                <div>
+                    <h3>Apellido*</h3>
+                    <input type="text" id="txt-apellido" name="apellido" placeholder="ingrese su primer apellido" value="">
+                </div>
+                <div>
+                    <h3>Email*</h3>
+                    <input type="email" id="txt-email" name="email" placeholder="example@example.com" value="">
+                </div>
+                <div>
+                    <h3>Número de celular*</h3>
+                    <input type="number" id="num-cel" name="num-cel" placeholder="ingrese su celualr" value="">
+                </div>
+            
+                <div>
+                    <h3>¿Cuál es la cerveza de su preferencia?</h3>
+                    <label for="opt-opcion1">Dorada: </label>
+                    <input type="radio" id="op1" name="opciones"  value="1">
+                </div>
+            
+                <div>
+                    <label for="opt-opcion2">Negra: </label>
+                    <input type="radio" id="op2" name="opciones"  value="2">
+                </div>
+            
+                <div>
+                    <label for="opt-opcion3">Roja: </label>
+                    <input type="radio" id="op3" name="opciones"  value="3" >
+                </div>
+            </fieldset>
+            </div>
+            
+                <br>
+                <button onclick="enviar()">Enviar</button>
+                <br>
+            
+            
+        </form>
+    </div>
+        
+
+
+</body>
+</html>
